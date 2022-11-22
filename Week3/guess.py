@@ -1,4 +1,4 @@
-secretWord = "PROFESSOR"
+secretWord = "YOMAMA"
 copy = secretWord
 guessedLetters =[]
 wordBoard = ["_"]*len(secretWord)
@@ -43,7 +43,7 @@ while(turns):
         guessedLetters.append(userInput)
     if win() == 1:
         turns = 0
-        print("YOU WON "+ copy)
+        print("YOU WON "+"The word is " + copy)
     elif turns == 0:
         print("Sorry you lost")
 
